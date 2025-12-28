@@ -1,0 +1,14 @@
+폴더
+10_yolo_crop_sizeup: 바운딩박스, 중점 그리고 크롭된 이미지
+src/train_yolo8n_sizeup_boundingbox: 학습 결과 및 모델 저장
+20_final_morphology_filter: 최종 코드의 결과 저장
+
+코드
+src/10_train_yolov8n_sizeup_boundingbox: 학습 코드
+src/10_sizeup_boundingbox_yolo_crop: 바운딩 박스 중점, 크롭 이미지 테스트 코드 -> 10_yolo_crop_sizeup폴더 저장 결과물
+src/20_final_morphology_filter: 산의 개수 추출되는 최종 코드
+
+마지막 최종 이미지 3장에 사용된 이미지는
+Detection & Crop : :20_final_morphology_filter/0_crop/27_30 이미지 사용
+Masking & Thresholding: 20_final_morphology_filter/3_morphology/27_30 이미지 사용
+Counting: 20_final_morphology_filter/4_final_result/27_30 이미지 사용
